@@ -5,7 +5,7 @@ Getting started with Kubernetes
 # Kubernetes
 Learning basics from documentation at [https://kubernetes.io/docs/tutorials/kubernetes-basics/](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
 
-# Module 1 - Create a Kubernetes cluster 
+# M1 - Create a Kubernetes cluster 
 
 ## Cluster up and running
 
@@ -46,7 +46,7 @@ kubectl get nodes
 This command shows all nodes that can be used to host our applications. Now we have only one node, and we can see that its status is ready (it is ready to accept applications for deployment).  
 
 
-# Using kubectl to Create a Deployment
+# M2 - Using kubectl to Create a Deployment
 
 Objectives -
 - Learn about application Deployments.
@@ -149,7 +149,7 @@ curl http://localhost:8001/api/v1/namespaces/default/pods/$POD_NAME/
 In order for the new deployment to be accessible without using the Proxy, a Service is required which will be explained in the next modules.
 
 
-# Viewing Pods and Nodes
+# M3 - Viewing Pods and Nodes
 
 Objectives -
 - Learn about Kubernetes Pods.
